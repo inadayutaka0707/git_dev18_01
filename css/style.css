@@ -1,0 +1,408 @@
+/* ここから下に記載していく */
+body {
+    width: 1200px;
+    margin: auto;
+    font-family: serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    height: 100px;
+}
+
+.headerLogo {
+    float: left;
+    height: 100px;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 120px;
+}
+
+.headerLogo img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.headerText li {
+    float: left;
+    font-size: 21px;
+    margin: 40px 50px 40px 0;
+}
+
+.mainImage {
+    position: relative;
+    padding-top: 100px;
+}
+
+.mainImage img{
+    width: 100%;
+}
+
+.mainImageText {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+.mainImageText h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.mainImageText p {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.mainContentTitle1, .mainContentTitle2 {
+    text-align: center;
+}
+
+.mainContentTitle1 h3, .mainContentTitle2 h3 {
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.mainContentTitle2 h3 {
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.mainContentTitle1 h4, .mainContentTitle2 h4 {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.mainContentTitle2 h4:nth-child(2) {
+    padding-bottom: 0;
+}
+
+.mainContent1Text {
+    padding-bottom: 80px;
+}
+
+.mainContent1Text p {
+    text-align: center;
+}
+
+.space {
+    padding-bottom: 40px;
+}
+
+#top {
+    position: fixed;
+    width: 1200px;
+    margin: auto;
+    transition: .3s cubic-bezier(.4,0,.2,1);
+    z-index: 199999;
+    background-color: lemonchiffon;
+}
+
+.head-animation {
+    transform: translateY(-100%);
+}
+
+.mainContent1Image img{
+    width: 25%;
+    display: block;
+    float: left;
+    padding-bottom: 60px;
+}
+
+.mainContent2Text {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.mainContentTextSection1 {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.a1 {
+    width: 50%;
+}
+
+.a1 img {
+    width: 100%;
+}
+
+.mainContentTextSection1Text {
+    padding-left: 50px;
+    width: 480px;
+}
+
+.mainContentTextSection1Text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.mainContentTextSection1Text p {
+    font-size: 15px;
+}
+
+.mainContentTextSection2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.mainContentTextSection2Text {
+    float: right;
+    padding-right: 50px;
+}
+
+.mainContentTextSection2Text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.mainContentTextSection2Text p {
+    font-size: 15px;
+}
+
+.mainContentTextSection3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.mainContentTextSection3Text {
+    padding-left: 50px;
+    width: 480px;
+}
+
+.mainContentTextSection3Text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.mainContentTextSection3Text p {
+    font-size: 15px;
+}
+
+.mainContentTitle3 {
+    text-align: center;
+}
+
+.mainContentTitle3 h3{
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.mainContentTitle3 h4 {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.mainContent3Text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContent3TextSection {
+    padding-right: 30px;
+    width: 300px;
+    transition: 0.5s;
+}
+
+.mainContent3TextSection:hover {
+    transform: perspective(500px) translateZ(50px);
+    cursor: pointer;
+}
+
+.mainContent3TextSection:nth-child(3) {
+    padding-right: 0;
+}
+
+.mainContent3TextSection h5 {
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.mainContent3TextSection p {
+    font-size: 14px;
+}
+
+.bottom {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 300px;
+    margin: auto;
+}
+
+.bottom p {
+    height: 60px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContent4 {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.mainContentTitle4 {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.mainContentTitle4 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.mainContentTitle4 h4 {
+    font-size: 18px;
+}
+
+.mainContentText4 iframe {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.mainContentText4 table{
+    width: 500px;
+    margin: auto;
+}
+
+.tr1 th {
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.tr2 th {
+    padding-bottom: 60px;
+    text-align: left;
+}
+
+.mainContent5 {
+    width: 100%;
+}
+
+.mainContentTitle5 {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.mainContentTitle5 h3 {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.mainContentTitle5 h4 {
+    font-size: 18px;
+}
+
+.mainContentText5Section1 {
+    text-align: center;
+}
+
+.mainContentText5Section1 p {
+    padding-bottom: 30px;
+}
+
+.mainContentText5Section1 p:nth-child(2) {
+    padding-bottom: 70px;
+}
+
+.mainContentText5 form {
+    width: 640px;
+    margin: auto;
+}
+
+table {
+    text-align: left;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+tr {
+    height: 36px;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+th {
+    width: 240px;
+    padding-left: 16px;
+    padding-right: 64px;
+    border-right: 1px solid #bfbfbf;
+}
+
+td {
+    width: 400px;
+    padding: 8px 0 8px 8px;
+    font-size: 15px;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+.bottom1 {
+    padding-top: 60px;
+    padding-bottom: 140px;
+    width: 300px;
+    margin: auto;
+}
+
+.bottom1 p {
+    height: 60px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #707070;
+    text-align: center;
+}
+
+.footer p {
+    padding: 30px 0;
+}
